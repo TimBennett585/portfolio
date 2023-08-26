@@ -8,28 +8,30 @@ font-family: 'Times New Roman', Times, serif;
 color: #333333;
 background-color: #8491A3;
 text-align: center;
-margin: 0px 10px 20px 10px;
-padding: 20px 10x;
+}
+
+.main-content {
+    margin: 2% 8% 2% 8%;
+    text-align: left;
 }
 
 main {
 background-color: #F7FFF6;
 color: #333333;
+
 }
 
 footer {
 background-color: #F7B2AD;
 color: #8491A3;
 text-align: center;
-margin: 10px;
-padding: 10px;
 }
 /*used to assign the basic styling of my site. header, main and footer all styled with custom color pallete, and text colors.*/
 
-article {
-margin: auto;
+.pictures {
 text-align: center;
 }
+
 
 a {
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -42,6 +44,8 @@ a:active {color: red;}
 
 ul, ol {
 list-style-position: inside;
+text-align: left;
+display: inline-block;
 }
 
 /* used to style the article area, the links and lists in the site. */
@@ -54,6 +58,7 @@ h1 {
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 28px;
+    text-align: center;
 }
 
 h3 {
