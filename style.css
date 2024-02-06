@@ -1,78 +1,84 @@
-html {
-    background-color: #F7FFF6;
-}
 /* used to make the background of the whole site the very light grayish color */
+html {
+  background-color: #F2F2F2;
+}
 
+/*used to assign the basic styling of my site. header, main and footer all styled with custom color pallete, and text colors.*/
 header {
-font-family: 'Times New Roman', Times, serif;
-color: #333333;
-background-color: #8491A3;
-text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: #6B7FF2;
+  background-color: #BFBFBF;
+  text-align: center;
 }
 
 .main-content {
-    margin: 2% 8% 2% 8%;
-    text-align: left;
+  margin: 2% 8% 2% 8%;
+  text-align: left;
 }
 
 main {
-background-color: #F7FFF6;
-color: #333333;
-
+  background-color: #F2F2F2;
+  color: #59544F;
 }
 
 footer {
-background-color: #F7B2AD;
-color: #8491A3;
-text-align: center;
-}
-/*used to assign the basic styling of my site. header, main and footer all styled with custom color pallete, and text colors.*/
-
-.pictures {
-text-align: center;
-}
-
-
-a {
-font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-a:link {color: blue;}
-a:visited {color: purple;}
-a:hover {color: green;}
-a:active {color: red;}
-
-ul, ol {
-list-style-position: inside;
-text-align: left;
-display: inline-block;
+  background-color: #BFBFBF;
+  color: #151EBF;
+  text-align: center;
 }
 
 /* used to style the article area, the links and lists in the site. */
-
-h1 {
-    color:#F7B2AD ;
-    font-size: 55px;
+.pictures {
+  text-align: center;
 }
 
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 28px;
-    text-align: center;
+a {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-h3 {
-    font-family: 'Times New Roman', Times, serif;
+a:link {
+  color: blue;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: green;
+}
+a:active {
+  color: red;
 }
 
-img {
-    width: 300px;
-    height: auto;
-    border-radius:10%;
-}
-
-p {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+ul,
+ol {
+  list-style-position: inside;
+  text-align: left;
+  display: inline-block;
 }
 
 /* lastly, these were used to style the individual things in the site: the image, the headers and the paragraph styles.*/
+h1 {
+  color: #151EBF;
+  font-size: 55px;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 10%;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
